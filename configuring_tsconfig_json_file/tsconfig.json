@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es3",
+    "lib": [
+        "dom",
+        "es6",
+        "dom.iterable",
+        "scripthost"
+    ],
+    "module": "umd",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "noImplicitAny": true,
+    "types": [
+      "core-js",
+      "node",
+      "angular"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "app/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "typings"
+  ]
+}
